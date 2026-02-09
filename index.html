@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Juan Lu - Desarrollador Web">
+    <title>Juan Lu | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="images/projects/white-logo.PNG" alt="Logo">
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Inicio</a>
+                <a href="#about" class="nav-link">Sobre mí</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting fade-in">Hola!, soy</p>
+                <h1 class="hero-title fade-in-up">
+                    <span class="name-highlight">Juanlu</span>
+                </h1>
+                <h2 class="hero-subtitle fade-in-up">
+                    <span class="typing-text">Desarrollador Web</span>
+                </h2>
+                <p class="hero-description fade-in-up">
+                    Creo experiencias digitales interactivas y accesibles. 
+                    Especializado en desarrollo frontend con enfoque en diseño moderno y código limpio. 
+                    Como implementación extra a mis desarrollos ofrezco la integración de sistemas de autogestión para las páginas, dando laposibilidad a mis clientes de gestionar por si mismos el contenido que se muestre en sus páginas web
+                </p>
+                <div class="hero-cta fade-in-up">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span>
+                Sobre mí
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador web apasionado por crear experiencias digitales 
+                        que sean tanto funcionales como visualmente atractivas. Me enfoco en 
+                        escribir código limpio, accesible y optimizado.
+                    </p>
+                    <p>
+                        Con experiencia en tecnologías modernas del desarrollo web, me especializo 
+                        en transformar ideas creativas en productos digitales de alta calidad que 
+                        hacen la diferencia.
+                    </p>
+                    <p>
+                        Mi enfoque combina desarrollo técnico sólido con sensibilidad al diseño, 
+                        asegurando que cada proyecto no solo funcione perfectamente, sino que 
+                        también ofrezca una experiencia de usuario excepcional.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h3>Desarrollo Considerado</h3>
+                            <p>Cada proyecto recibe un enfoque pragmático, priorizando accesibilidad y optimización.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>Atención al Detalle</h3>
+                            <p>Las interacciones sutiles y animaciones cuidadas dan vida al diseño.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>Código Limpio</h3>
+                            <p>Escribo código mantenible, escalable y siguiendo las mejores prácticas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span>
+                Proyectos Destacados
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-slider" data-slider="cillan">
+                            <div class="slider-images">
+                                <img src="images/projects/proyectoCillan/i1.png" alt="Cillán World - Vista 1" class="slider-image active">
+                                <img src="images/projects/proyectoCillan/i2.png" alt="Cillán World - Vista 2" class="slider-image">
+                                <img src="images/projects/proyectoCillan/i3.png" alt="Cillán World - Vista 3" class="slider-image">
+                                <img src="images/projects/proyectoCillan/i4.png" alt="Cillán World - Vista 4" class="slider-image">
+                            </div>
+                            <div class="slider-dots"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Cillán World - E-Commerce Platform for designer Cillán</h3>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Vercel</span>
+                                <span class="tag">Render</span>
+                                <span class="tag">Neon</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Plataforma de comercio electrónico completa con gestión de inventario, 
+                            procesamiento de pagos y panel de administración personalizado. 
+                            Diseñada con la intención de mantener la esencia de la marca y ofrecer una experiencia de compra fluida y atractiva.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://www.cillan.world/" class="project-link" target="_blank" rel="noopener noreferrer">Ver Proyecto →</a>
+                            <a href="https://github.com/Juanlu8" class="project-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <!--<article class="project-card">-->
+                <!--    <div class="project-image">-->
+                <!--        <div class="project-placeholder">-->
+                <!--            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+                <!--                <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2"/>-->
+                <!--                <path d="M12 8v4l3 3" stroke="currentColor" stroke-width="2"/>-->
+                <!--            </svg>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--    <div class="project-content">-->
+                <!--        <div class="project-header">-->
+                <!--            <h3 class="project-title">Task Management App</h3>-->
+                <!--            <div class="project-tags">-->
+                <!--                <span class="tag">Vue.js</span>-->
+                <!--                <span class="tag">Firebase</span>-->
+                <!--                <span class="tag">Tailwind</span>-->
+                <!--            </div>-->
+                <!--        </div>-->
+                <!--        <p class="project-description">-->
+                <!--            Aplicación de gestión de tareas con funcionalidades de colaboración en tiempo real,--> 
+                <!--            recordatorios y análisis de productividad.-->
+                <!--        </p>-->
+                <!--        <div class="project-links">-->
+                <!--            <a href="#" class="project-link">Ver Proyecto →</a>-->
+                <!--            <a href="#" class="project-link">GitHub →</a>-->
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</article>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span>
+                Habilidades & Tecnologías
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+                        <li>React    / Next.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS / Sass</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul class="skill-list">
+                        <li>Node.js / Express</li>
+                        <li>REST APIs</li>
+                        <li>SQL Server, MySQL, PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Herramientas & Otros</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Intereses</h3>
+                    <ul class="skill-list">
+                        <li>UI/UX Design</li>
+                        <li>Web Performance</li>
+                        <li>JAMstack</li>
+                        <li>Motion Design</li>
+                        <li>Web Accessibility</li>
+                        <li>Progressive Web Apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span>
+                Contacto
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3 class="contact-heading">¿Tienes un proyecto en mente?</h3>
+                    <p class="contact-description">
+                        Estoy siempre abierto a nuevas oportunidades y colaboraciones. 
+                        Completa el formulario y te responderé lo antes posible.
+                    </p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Asunto del mensaje">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required placeholder="Escribe tu mensaje aquí..." rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span class="btn-text">Enviar Mensaje</span>
+                            <span class="btn-loading" style="display: none;">Enviando...</span>
+                        </button>
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <a href="mailto:juanluisbertoncini@gmail.com">juanluisbertoncini@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <h4>Sígueme</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/Juanlu8" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/juan-luis-bertoncini-ferreras" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-1 14v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3V9.5h-2.79V17h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4V17H18zM6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68zM8.27 17V9.5H5.5V17h2.77z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Juan Lu. Diseñado y desarrollado con atención al detalle.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
