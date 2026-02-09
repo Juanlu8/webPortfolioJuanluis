@@ -1,4 +1,4 @@
-# Portfolio Web - Juan Lu
+# Portfolio Web - Juan Luis Bertoncini
 
 Portfolio web personal moderno y responsive, desarrollado con HTML, CSS y JavaScript vanilla.
 
